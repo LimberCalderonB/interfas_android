@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">proyecto_interfas</string>
+
+    <string-array name="opciones">
+        <item>Opción 1</item>
+        <item>Opción 2</item>
+        <item>Opción 3</item>
+        <!-- Puedes agregar más opciones si es necesario -->
+    </string-array>
+
+
+</resources>
