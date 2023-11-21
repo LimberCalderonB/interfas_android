@@ -84,10 +84,10 @@
                     android:id="@+id/imageButton4"
                     android:layout_width="184dp"
                     android:layout_height="173dp"
-                    android:src="@android:drawable/btn_star"
-                    tools:srcCompat="@mipmap/sensores"
+                    android:onClick="sen"
                     android:scaleType="fitCenter"
-                    android:onClick="sen"/>
+                    android:src="@android:drawable/btn_star"
+                    tools:srcCompat="@mipmap/sensores" />
 
                 <ImageButton
                     android:id="@+id/imageButton2"

@@ -21,4 +21,32 @@ class iniciar : AppCompatActivity() {
         val intent = Intent(this, tester::class.java)
         startActivity(intent)
     }
+    fun res(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }
+    fun capa(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }
+    fun dio(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }
+    fun tran(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }
+    fun sen(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }
+    fun led(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }fun cables(view: View) {
+        val intent = Intent(this, tester::class.java)
+        startActivity(intent)
+    }
+
 }

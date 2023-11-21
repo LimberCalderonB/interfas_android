@@ -5,14 +5,17 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class tester : AppCompatActivity() {
+class comprar : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tester)
+        setContentView(R.layout.activity_comprar)
     }
-    // Método para el clic en el botón "CREAR CUENTA"
     fun comprar(view: View) {
-        val intent = Intent(this, comprar::class.java)
+        val intent = Intent(this, factura::class.java)
+        startActivity(intent)
+    }
+    fun cancelar(view: View) {
+        val intent = Intent(this, iniciar::class.java)
         startActivity(intent)
     }
 }
