@@ -4,36 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/fondo3"
     tools:context=".tester">
-
-    <Button
-        android:id="@+id/bt1"
-        android:layout_width="400dp"
-        android:layout_height="69dp"
-        android:text="COMPRAR"
-        android:onClick="comprar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.802" />
 
     <Button
         android:id="@+id/bt2"
         android:layout_width="399dp"
         android:layout_height="68dp"
+        android:backgroundTint="#171515"
+        android:fontFamily="@font/adamina"
         android:text="CANCELAR"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.926" />
+        app:layout_constraintVertical_bias="0.85" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:backgroundTint="#151414"
+        android:fontFamily="@font/adamina"
+        android:onClick="comprar"
+        android:text="COMPRAR"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="304dp"
-        android:layout_height="105dp"
+        android:layout_width="362dp"
+        android:layout_height="103dp"
         android:text="Equipado con diversas funciones, el tester es capaz de realizar mediciones precisas y rápidas, facilitando el diagnóstico de circuitos eléctricos, comprobando la continuidad de los cables"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -43,14 +51,27 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="282dp"
-        android:layout_height="317dp"
+        android:layout_width="251dp"
+        android:layout_height="224dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
+        app:layout_constraintVertical_bias="0.262"
         app:srcCompat="@drawable/tester" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="170dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="MULTIMETRO"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

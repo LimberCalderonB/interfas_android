@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@mipmap/fondo3"
     tools:context=".comprar">
 
     <EditText
@@ -15,24 +16,24 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.424"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="376dp"
-        android:layout_height="52dp"
+        android:id="@+id/editTextText8"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
         android:ems="10"
-        android:hint="Ingresar correo Electronico :"
+        android:hint="Fecha"
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintHorizontal_bias="0.927"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.256" />
+        app:layout_constraintVertical_bias="0.363" />
 
     <EditText
         android:id="@+id/editTextText5"
@@ -43,30 +44,48 @@
         android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintHorizontal_bias="0.072"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.345" />
+        app:layout_constraintVertical_bias="0.363" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="376dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Ingresar correo Electronico :"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="182dp"
-        android:layout_height="56dp"
-        android:text="CANCELAR"
+        android:layout_width="186dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#191616"
+        android:fontFamily="@font/adamina"
         android:onClick="cancelar"
+        android:text="CANCELAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="0.928"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.755" />
+        app:layout_constraintVertical_bias="0.76" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="181dp"
         android:layout_height="60dp"
-        android:text="COMPRAR"
+        android:backgroundTint="#1C1A1A"
+        android:fontFamily="@font/adamina"
         android:onClick="comprar"
+        android:text="COMPRAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.117"
@@ -76,29 +95,17 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="154dp"
-        android:layout_height="28dp"
+        android:layout_width="234dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/alfa_slab_one"
         android:text="REALIZAR COMPRA"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.553"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.089" />
-
-    <EditText
-        android:id="@+id/editTextText8"
-        android:layout_width="120dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="text"
-        android:hint="Fecha"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.934"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.344" />
+        app:layout_constraintVertical_bias="0.19" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -109,5 +116,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintVertical_bias="0.575" />
 </androidx.constraintlayout.widget.ConstraintLayout>
